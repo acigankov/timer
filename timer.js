@@ -5,7 +5,7 @@ const secondsEl = document.getElementById('seconds');
 const timerEl = document.getElementById('timer');
 
 function countdown () {
-    const targetDate = new Date("01.01.2021");
+    const targetDate = new Date("01.01.2022");
     const currentDate = new Date();
     const allSeconds = Math.floor(targetDate - currentDate) / 1000;
     const days = Math.floor(allSeconds / 3600 / 24);
